@@ -15,7 +15,8 @@ import logInRoute from "./routes/loginroutes.js";
 
 //constant
 const port = process.env.PORT || 3000;
-const hostName="localhost";
+//const hostName="localhost";
+const hostName=process.env.HOST || '0.0.0.0';
 const url=process.env.MONGODB_URI || "mongodb://localhost:27017/hotelProjectDb";
 //const url="mongodb+srv://wardhaidrees:minahil24april@hotelprojectdb.q0hzflb.mongodb.net/hotelProjectDb";
 
